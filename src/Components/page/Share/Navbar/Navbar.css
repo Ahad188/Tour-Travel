@@ -18,6 +18,7 @@
 .nav-menu{
      display: flex;
      justify-content: space-evenly;
+     
 }
 .list{
      padding: 5px 10px;  
