@@ -1,0 +1,37 @@
+.navbarItem{
+     display:  flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 30px;
+     box-shadow: 0 5px 15px 0 rgba(0,0,0, .25);
+     width: 95%;
+     height: 80px;
+     border-radius: 13px;
+     margin: 0 auto;
+}
+.logo{
+     color: #222;
+     font-size: 2rem;
+     font-weight: bold;
+     cursor: pointer;
+}
+.nav-menu{
+     display: flex;
+     justify-content: space-evenly;
+}
+.list{
+     padding: 5px 10px;  
+}
+.links{
+     text-decoration: none;
+     font-size: 1.2rem;
+     color: #222;
+     padding: 0.7rem 1rem;
+}
+.links:hover{
+     background-color: #01959a;
+     color: #fff;
+      
+     border-radius: 4px;
+     transition: all 0.3s ease-in-out;
+}
